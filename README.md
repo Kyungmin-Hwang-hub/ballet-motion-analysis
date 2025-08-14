@@ -73,22 +73,6 @@ cd ballet-motion-analysis
 
 ### 2. 환경 설정 및 라이브러리 설치 (Setup Environment & Install dependencies)
 
-# (선택 사항) 가상 환경 생성 및 활성화
-python -m venv venv
-source venv/bin/activate # macOS/Linux
-# venv\Scripts\activate # Windows
-
-# requirements.txt 파일에 명시된 라이브러리 설치
-pip install -r requirements.txt
-
-# 1단계: 영상에서 랜드마크 데이터 추출
-python 1_extract_data.py
-
-# 2단계: 추출된 데이터를 기반으로 각도 계산
-python 2_calculate_angle.py
-
-# 3단계: 최종 시각화 결과 확인
-python 3_video_and_graph_visualizer.py
 
 
 
