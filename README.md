@@ -69,6 +69,8 @@ https://youtu.be/msv6gcY5ThU
 git clone [https://github.com/Kyungmin-Hwang-hub/ballet-motion-analysis.git](https://github.com/Kyungmin-Hwang-hub/ballet-motion-analysis.git)
 cd ballet-motion-analysis
 
+### 2. 환경 설정 및 라이브러리 설치 (Setup Environment & Install dependencies)
+
 # (선택 사항) 가상 환경 생성 및 활성화
 python -m venv venv
 source venv/bin/activate # macOS/Linux
