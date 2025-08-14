@@ -56,6 +56,9 @@ https://youtu.be/-gsdTwBnxOk
 https://youtu.be/Iv4sl9wL-TQ
 https://youtu.be/msv6gcY5ThU
 
+[![시연 영상 미리보기](https://img.youtu.be/My92in6GzkM/0.jpg)](https://youtu.be/My92in6GzkM)
+
+
 
 ## 🚀 프로젝트 실행 방법 (How to Run)
 
