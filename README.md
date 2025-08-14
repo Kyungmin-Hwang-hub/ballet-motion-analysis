@@ -73,9 +73,37 @@ cd ballet-motion-analysis
 
 ### 2. 환경 설정 및 라이브러리 설치 (Setup Environment & Install dependencies)
 
+프로젝트의 종속성 충돌을 방지하기 위해 가상 환경을 활성화하고 필요한 라이브러리를 설치합니다.
 
+```bash
+# (선택 사항) 가상 환경 생성 및 활성화
+python -m venv venv
+source venv/bin/activate # macOS/Linux
+# venv\Scripts\activate # Windows
 
+# requirements.txt 파일에 명시된 라이브러리 설치
+pip install -r requirements.txt
+```
 
+### ​3. 영상 및 CSV 파일 경로 설정 (Configure file paths)
+
+​분석 대상이 되는 영상 파일(.mp4)을 [프로젝트 루트 경로]/videos/ 폴더에 위치시킵니다.
+
+​1_extract_data.py 파일 내 VIDEO_DIR 변수와 PROCESSED_DATA_DIR 변수의 경로를 본인의 환경에 맞게 수정합니다.
+
+### ​4. 각 단계별 스크립트 실행 (Run each step)
+​각 단계의 스크립트를 순서대로 실행하여 최종 결과물을 확인합니다.
+
+```bash
+# 1단계: 영상에서 랜드마크 데이터 추출
+python 1_extract_data.py
+
+# 2단계: 추출된 데이터를 기반으로 각도 계산
+python 2_calculate_angle.py
+
+# 3단계: 최종 시각화 결과 확인
+python 3_video_and_graph_visualizer.py
+```
 
 
 ## 🔬 분석 결과 및 인사이트 (Analysis Results & Insights)
