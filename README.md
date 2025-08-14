@@ -67,7 +67,8 @@ https://youtu.be/msv6gcY5ThU
 터미널에서 다음 명령어를 입력하여 프로젝트 파일을 다운로드합니다.
 ```bash
 git clone [https://github.com/Kyungmin-Hwang-hub/ballet-motion-analysis.git](https://github.com/Kyungmin-Hwang-hub/ballet-motion-analysis.git)
-cd ballet-motion-analysis'''
+cd ballet-motion-analysis
+'''
 
 ### 2. 환경 설정 및 라이브러리 설치 (Setup Environment & Install dependencies)
 
