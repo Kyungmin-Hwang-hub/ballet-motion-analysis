@@ -1,4 +1,4 @@
-8# 프로젝트: 컴퓨터 비전 기반 고관절 움직임 분석 (Computer Vision-based Hip Motion Analysis)
+# 프로젝트: 컴퓨터 비전 기반 고관절 움직임 분석 (Computer Vision-based Hip Motion Analysis)
 
 
 
