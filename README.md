@@ -1,4 +1,4 @@
-# 프로젝트: 컴퓨터 비전 기반 고관절 움직임 분석 (Computer Vision-based Hip Motion Analysis)
+8# 프로젝트: 컴퓨터 비전 기반 고관절 움직임 분석 (Computer Vision-based Hip Motion Analysis)
 
 
 
@@ -69,8 +69,6 @@ https://youtu.be/msv6gcY5ThU
 git clone [https://github.com/Kyungmin-Hwang-hub/ballet-motion-analysis.git](https://github.com/Kyungmin-Hwang-hub/ballet-motion-analysis.git)
 cd ballet-motion-analysis
 
-### 2. 환경 설정 및 라이브러리 설치 (Setup Environment & Install dependencies)
-#프로젝트의 종속성 충돌을 방지하기 위해 가상 환경을 활성화하고 필요한 라이브러리를 설치합니다.
 # (선택 사항) 가상 환경 생성 및 활성화
 python -m venv venv
 source venv/bin/activate # macOS/Linux
@@ -79,10 +77,6 @@ source venv/bin/activate # macOS/Linux
 # requirements.txt 파일에 명시된 라이브러리 설치
 pip install -r requirements.txt
 
-#분석 대상이 되는 영상 파일(.mp4)을 [프로젝트 루트 경로]/videos/ 폴더에 위치시킵니다.
-#1_extract_data.py 파일 내 VIDEO_DIR 변수와 PROCESSED_DATA_DIR 변수의 경로를 본인의 환경에 맞게 수정합니다.
-
-#각 단계 실행
 # 1단계: 영상에서 랜드마크 데이터 추출
 python 1_extract_data.py
 
